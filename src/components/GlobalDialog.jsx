@@ -18,7 +18,6 @@ export default function GlobalDialog() {
   };
 
   const doConfirm = () => {
-    console.log("utente inserito: " + dialogValue);
     dispatch(handleConfirm(dialogValue));
   };
 
